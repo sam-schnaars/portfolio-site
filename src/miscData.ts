@@ -70,28 +70,5 @@ export const contactData = {
   techStack:
     'TailwindCSS, JavaScript, TypeScript, ReactJS/NextJS/GatsbyJS, GraphQL, Firebase',
   availableFor: [
-    {
-      id: 1,
-      title: 'Frontend Development',
-      description:
-        'Available for any frontend project for anyone; 0 → 1 advising, visual design feedback, and building out the entire website.',
-    },
-    {
-      id: 2,
-      title: 'Building SPAs',
-      description:
-        'Can create Single Page Applications based on your requirements.',
-    },
-    {
-      id: 3,
-      title: 'Minimal Websites',
-      description:
-        'Have a eye for the smallest details like choosing colors, font sizes, images, etc.',
-    },
-    {
-      id: 4,
-      title: 'Custom Websites',
-      description: 'Can build any site based on your requirements.',
-    },
   ],
 };

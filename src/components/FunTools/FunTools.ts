@@ -12,10 +12,19 @@ export const WorkData: Props[] = [
     id: 1,
     title: "AsqMe",
     description:
-      "I'm currently a spring Intern at AsqMe, working on an NLP algorithm that allows creators to find questions from their audience and create the perfect reply.",
+      "I'm currentyl a spring Intern at AsqMe, working on an NLP algorithm that allows creators to find questions from their audience and create the perfect reply.",
     picture: "/work/AsqMe.jpg",
     linkText: "AsqMe →",
     link: "https://asqme.com",
+  },
+  {
+    id: 3,
+    title: "Zest Capital",
+    description:
+      "I partnered with Zest Capital to create a three month startup incubator within Peru, eventually travelling to Lima to organize a pitch competition for the cohort and source investors for them.",
+    picture: "/work/zest.jpg",
+    linkText: "Zest Capital →",
+    link: "https://https://zest.pe/",
   },
   {
     id: 2,
@@ -26,13 +35,4 @@ export const WorkData: Props[] = [
     linkText: "Ozaru →",
     link: "https://ozaru.io",
   },
-  {
-    id: 3,
-    title: "Zest Capital",
-    description:
-      "I partnered with Zest Capital to create a three month startup incubator within Peru, eventually travelling to Lima to organize a pitch competition for the cohort and source investors for them.",
-    picture: "/work/zest.jpg",
-    linkText: "Zest Capital →",
-    link: "https://https://zest.pe/",
-  }
 ];

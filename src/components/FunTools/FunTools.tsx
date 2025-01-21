@@ -1,16 +1,17 @@
+
 import Image from "next/image";
-import { WorkData } from "./WorkData";
-import styles from "./SelectedWork.module.scss";
+import React from "react";
+import { WorkData } from "./FunTools";
 import { siteData } from "../../siteData";
 
-const SelectedWork: React.FC = () => {
+const FunTools: React.FC = () => {
   const { author } = siteData;
   return (
-    <>
-      <section className={styles.select}>
-        <h1 className={styles.select_first_heading}>Work.</h1>
+    <section>
+      <h1>Fun tools.</h1>
+      <div>
         {WorkData.map(({ id, title, description, linkText, link, picture }) => (
-          <article className={styles.select_content} key={id}>
+          <article>
             <main>
               <h1>{title}</h1>
               <p>{description}</p>
@@ -20,9 +21,8 @@ const SelectedWork: React.FC = () => {
             </main>
             <article>
               <Image
-                className={styles.image}
                 src={picture}
-                alt={`${title} "project of ${author}"`}
+                alt={`${title} project of ${author}`}
                 width={1280}
                 height={720}
                 loading="eager"
@@ -30,9 +30,9 @@ const SelectedWork: React.FC = () => {
             </article>
           </article>
         ))}
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 
-export default SelectedWork;
+export default FunTools;

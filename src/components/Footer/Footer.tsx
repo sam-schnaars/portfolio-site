@@ -7,7 +7,6 @@ const Footer: React.FC = () => {
     footerBriefBio,
     author,
     linkedin,
-    twitter,
     footerHeadshotImage,
     github,
   } = siteData;
@@ -34,11 +33,7 @@ const Footer: React.FC = () => {
             </div>
           </article>
           <article className={styles.footer_social_section_links}>
-            <p>Elsewhere</p>
             <aside>
-              <a href={twitter} target='_blank' rel='noreferrer'>
-                Twitter
-              </a>
               <a href={github} target='_blank' rel='noreferrer'>
                 GitHub
               </a>

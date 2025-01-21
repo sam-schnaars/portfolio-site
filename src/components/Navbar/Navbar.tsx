@@ -48,40 +48,6 @@ const Navbar: React.FC = () => {
                   {name}
                 </Link>
               ))}
-              <section className={styles.links_social}>
-                <h2>connect</h2>
-                <a href={twitter} target="_blank" rel="noreferrer">
-                  <Image
-                    src="/icons/twitter.svg"
-                    alt="twitter logo for @touseefcodes"
-                    width={30}
-                    height={30}
-                    objectFit="contain"
-                  />
-                </a>
-                <a
-                  href="https://instagram.com/touseefcodes"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Image
-                    src="/icons/instagram.svg"
-                    alt="instagram logo for @touseefcodes"
-                    width={30}
-                    height={30}
-                    objectFit="contain"
-                  />
-                </a>
-                <a href={linkedin} target="_blank" rel="noreferrer">
-                  <Image
-                    src="/icons/linkedin.svg"
-                    alt="linkedin logo for @touseefcodes"
-                    width={30}
-                    height={30}
-                    objectFit="contain"
-                  />
-                </a>
-              </section>
             </header>
           ) : (
             ""
