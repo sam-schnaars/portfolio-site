@@ -10,9 +10,9 @@ interface GroqChatCompletionResponse {
     };
   }[];
 }
-
+const apiKey = process.env.NEXT_PUBLIC_GROQ_API_KEY;
 const groq = new Groq({
-  apiKey: "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",
+    apiKey: apiKey,
   dangerouslyAllowBrowser: true,
 });
 
