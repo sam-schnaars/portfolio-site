@@ -1,5 +1,27 @@
 @import "../../styles/settings/__settings";
 
+.background {
+  background-image: url('honduran-mahogany.png');
+  padding-top: 15vh;
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 100vw;
+  background-size: cover; // This makes the image cover the entire element
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; // Add this to ensure proper positioning
+  left: 50%; // Center the element
+  right: 50%;
+  transform: translateX(-50%); 
+  h1 {
+    padding-bottom: 0.8em;
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 5.778rem;
+  }
+}
 .hero {
   &_header {
     padding: 7rem 0 13rem 0;
@@ -36,7 +58,7 @@
 
   &_biography {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
     max-width: 100%;
     margin-bottom: 3em;

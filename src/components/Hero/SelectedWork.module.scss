@@ -1,0 +1,71 @@
+@import "../../styles/settings/__settings";
+
+.showcaseContainer {
+  width: 100%;
+  max-width: 90vw;
+  margin: 0 auto;
+  margin-bottom: 4vh;
+}
+.funtools {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url("/skate.gif");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover; // This makes the image cover the entire element
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; // Add this to ensure proper positioning
+  left: 50%; // Center the element
+  right: 50%;
+  transform: translateX(-50%); 
+
+}
+.select {
+  &_first_heading {
+    padding: 1em 0;
+    font-size: 5rem;
+    font-weight: 200;
+  }
+  
+  &_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5em;
+
+    h1 {
+      margin: 0.5em 0;
+      font-size: 2.5rem;
+    }
+
+    p {
+      max-width: 30em;
+      padding-bottom: 1.5em;
+      font-size: 1.25rem;
+    }
+
+    a {
+      font-size: 1.5rem;
+      font-weight: 800;
+      letter-spacing: 0.05em;
+      color: $bold;
+      &:hover,
+      &:focus {
+        color: $btn-after-hover;
+      }
+    }
+
+    img {
+      border-radius: 2em;
+    }
+  }
+}
+
+@media (max-width: $tablet) {
+  .select_content {
+    flex-direction: column;
+    gap: 1em 0;
+  }
+}

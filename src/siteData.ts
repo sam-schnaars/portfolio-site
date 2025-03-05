@@ -28,7 +28,7 @@ type DetailedBioProps = {
 
 export const siteData: SiteProps = {
   siteTitle: 'samarei.com',
-  secondaryTitle: 'MERN Stack Engineer',
+  secondaryTitle: '',
   email: 'samschnaars@berkeley.edu',
   author: '@samschnaars',
   github: 'https://github.com/sam-schnaars',
@@ -36,7 +36,7 @@ export const siteData: SiteProps = {
   externalHireLink: 'https://linkedin.com/in/sam-schnaars',
   externalHireLinkName: 'Linkedin',
   // in this case, upwork | change it if you want
-  description: `I'm Sam Schnaars - a third year data scientist looking for my next oppurtunity to`,
+  description: `I'm Sam - a third year data scientist at UC Berkeley; scroll down to learn more about me.`,
   footerBriefBio:
     'If you like what you see, please contact me anytime. Click the below gif!',
   siteKeywords:

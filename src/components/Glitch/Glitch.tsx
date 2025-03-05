@@ -7,7 +7,7 @@ const Glitch: React.FC = () => {
       <section className={styles.glitch}>
         <article className={styles.glitch_content}>
           <h1>let's work together</h1>
-          <button>{email}</button>
+          <button className="border border-gray-200">{email}</button>
         </article>
       </section>
     </>

@@ -2,15 +2,23 @@
 
 .main_nav {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
   position: relative;
-  margin: 1em 0;
   font-size: 1.125rem;
   font-weight: 600;
-
+  background-image: url("symetrical.png");
+  height: 15vh;
+  width: 100vw;
+  background-size: cover; // This makes the image cover the entire element
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; // Add this to ensure proper positioning
+  left: 50%; // Center the element
+  right: 50%;
+  transform: translateX(-50%); 
   .logo {
     cursor: pointer;
-
     a {
       &:hover,
       &:focus {
@@ -21,7 +29,6 @@
   .links {
     display: flex;
     align-items: center;
-    margin-left: 2em;
 
     a {
       margin-right: 2em;

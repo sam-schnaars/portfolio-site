@@ -1,7 +1,7 @@
 @import "../../styles/settings/__settings";
 
 .glitch {
-  background-image: url(/pic/watercolor-glitch.gif);
+  background-image: url(/pic/plants.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: scroll;
@@ -20,12 +20,10 @@
     }
     button {
       border: none;
-      background: none;
       margin-top: 0.5em;
       font-size: 0.8rem;
       padding: 1em 1.12em;
       font-weight: 600;
-      background-color: $background-color;
       color: $bold;
       letter-spacing: 0.03em;
       border-radius: 10em;

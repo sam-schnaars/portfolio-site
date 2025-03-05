@@ -3,7 +3,6 @@ import styles from "../styles/pages/contact.module.scss";
 import Image from "next/image";
 import Head from "next/head";
 import { siteData } from "../siteData";
-import { contactData } from "../miscData";
 
 const contact: React.FC = () => {
   const { siteTitle, twitter, linkedin, email, github, author } = siteData;

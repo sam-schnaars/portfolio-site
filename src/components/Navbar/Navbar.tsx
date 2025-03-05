@@ -12,15 +12,10 @@ const Navbar: React.FC = () => {
   return (
     <>
       <nav className={styles.main_nav}>
+        <div className="flex flex-row">
         <div className={styles.logo}>
           <Link href="/" passHref>
-            <Image
-              src="/favicon.jpg"
-              alt="@touseefcodes logo"
-              width={30}
-              height={30}
-              objectFit="contain"
-            />
+          <a className="ml-[4vw] mr-[2em]">home</a>
           </Link>
         </div>
         <header className={styles.links}>
@@ -34,7 +29,6 @@ const Navbar: React.FC = () => {
           <div className={styles.ham_logo}>
             <Image
               src={`/icons/hamburger.svg`}
-              alt="@touseefcodes hamburger"
               width={30}
               height={30}
               objectFit="contain"
@@ -52,6 +46,7 @@ const Navbar: React.FC = () => {
           ) : (
             ""
           )}
+        </div>
         </div>
       </nav>
     </>
