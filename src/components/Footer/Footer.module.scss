@@ -22,18 +22,7 @@
       letter-spacing: 0.03em;
       position: relative;
 
-      a {
-        display: flex;
-        flex-direction: column;
-        margin: 0.5em 0;
-        font-size: 1.125rem;
-        color: $bold;
-
-        &:hover,
-        &:focus {
-          color: $link-before-hover;
-        }
-      }
+      
     }
   }
   div {

@@ -15,7 +15,7 @@ const Navbar: React.FC = () => {
         <div className="flex flex-row">
         <div className={styles.logo}>
           <Link href="/" passHref>
-          <a className="ml-[4vw] mr-[2em]">home</a>
+          <h1 className="ml-[4vw] mr-[2em]">home</h1>
           </Link>
         </div>
         <header className={styles.links}>
@@ -28,10 +28,11 @@ const Navbar: React.FC = () => {
         <div className={styles.hamburger} onClick={() => setMenu(!menu)}>
           <div className={styles.ham_logo}>
             <Image
+              alt="image"
               src={`/icons/hamburger.svg`}
               width={30}
               height={30}
-              objectFit="contain"
+              style={{ objectFit: 'contain' }}
             />
           </div>
           {menu ? (

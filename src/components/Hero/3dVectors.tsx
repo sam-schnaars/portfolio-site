@@ -1,10 +1,9 @@
 'use client';
 
-import React, { useRef, useEffect, useState } from 'react';
+import React, {useEffect, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls, Line, PerspectiveCamera, Html, Grid } from '@react-three/drei';
+import { OrbitControls, Line, PerspectiveCamera, Html} from '@react-three/drei';
 import * as THREE from 'three';
-import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
 const colors = ['#FF5733', '#33FF57', '#3357FF', '#FF33A1', '#A133FF', '#33FFF5'];
@@ -327,7 +326,7 @@ const Spinning3DObject = ({ showForm = true }) => {
             className="absolute left-4 top-4 z-30 bg-gray-800 p-2 rounded-lg shadow-lg cursor-pointer hover:bg-gray-700 transition-colors"
             onClick={toggleForm}
           >
-            {isFormOpen ? <FaChevronLeft /> : <FaChevronRight />}
+            {isFormOpen ? "←" : "→"}
           </div>
           
           <div className="w-full h-full">

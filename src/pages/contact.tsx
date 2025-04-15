@@ -20,7 +20,7 @@ const contact: React.FC = () => {
               alt={`instagram logo for ${author}`}
               width={30}
               height={30}
-              objectFit="contain"
+              style={{ objectFit: 'contain' }}
               loading="eager"
             />
           </a>
@@ -30,7 +30,7 @@ const contact: React.FC = () => {
               alt={`linkedin logo for ${author}`}
               width={30}
               height={30}
-              objectFit="contain"
+              style={{ objectFit: 'contain' }}
               loading="eager"
             />
           </a>

@@ -32,7 +32,7 @@ const work: React.FC = () => {
               alt={item.title}
               width={1280}
               height={720}
-              objectFit="contain"
+              style={{ objectFit: 'contain' }}
               loading="eager"
             />
             <hr />
